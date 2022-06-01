@@ -1,0 +1,31 @@
+//
+//  RCLVPrefixHeader.pch
+//  RCLiveVideoDemo
+//
+//  Created by 彭蕾 on 2022/5/27.
+//
+
+#ifndef RCLVPrefixHeader_pch
+#define RCLVPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "RCUserManager.h"
+#import "RCResponseModel.h"
+#import "RCWebService.h"
+#import "RCWebService+PK.h"
+#import "RCLVSDefine.h"
+#import "RoomModel.h"
+#import "UserModel.h"
+#import "CreateRoomModel.h"
+#import "RCOnlineCreatorModel.h"
+#import "RCPKStatusModel.h"
+
+#import <RongIMLib/RongIMLib.h>
+#import <RCLiveVideoLib/RCLiveVideoLib.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <Masonry/Masonry.h>
+#import <AFNetworking/AFNetworking.h>
+#import <YYModel/YYModel.h>
+
+#endif /* RCLVPrefixHeader_pch */

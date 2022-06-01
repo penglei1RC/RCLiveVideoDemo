@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0227CCAE28474A4C006402AF /* RCPKStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0227CCAD28474A4C006402AF /* RCPKStatusModel.m */; };
+		0243DE1E2840CD80007FAC8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE1D2840CD80007FAC8A /* AppDelegate.m */; };
+		0243DE292840CD83007FAC8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0243DE282840CD83007FAC8A /* Assets.xcassets */; };
+		0243DE2C2840CD83007FAC8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0243DE2A2840CD83007FAC8A /* LaunchScreen.storyboard */; };
+		0243DE2F2840CD83007FAC8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE2E2840CD83007FAC8A /* main.m */; };
+		0243DE3C28427071007FAC8A /* RCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE3B28427071007FAC8A /* RCLoginViewController.m */; };
+		0243DE3F28427096007FAC8A /* RCRoomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE3E28427096007FAC8A /* RCRoomListViewController.m */; };
+		0243DE42284270B2007FAC8A /* RCUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE41284270B2007FAC8A /* RCUserManager.m */; };
+		0243DE45284270C8007FAC8A /* RCWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE44284270C8007FAC8A /* RCWebService.m */; };
+		0243DE4B284279B8007FAC8A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0243DE4A284279B8007FAC8A /* Localizable.strings */; };
+		0243DE5028428112007FAC8A /* RCResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE4E28428112007FAC8A /* RCResponseModel.m */; };
+		0243DE5428431D19007FAC8A /* LoginResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE5328431D19007FAC8A /* LoginResponseModel.m */; };
+		0243DE5828431FF9007FAC8A /* RCRoomListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE5728431FF9007FAC8A /* RCRoomListPresenter.m */; };
+		0243DE5C28432001007FAC8A /* RCRoomListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE5A28432001007FAC8A /* RCRoomListCell.m */; };
+		0243DE632843200C007FAC8A /* RoomListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE5F2843200C007FAC8A /* RoomListModel.m */; };
+		0243DE6928432097007FAC8A /* RoomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE6528432097007FAC8A /* RoomModel.m */; };
+		0243DE6A28432097007FAC8A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE6628432097007FAC8A /* UserModel.m */; };
+		0243DE6D28432A65007FAC8A /* RCLVHostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE6C28432A65007FAC8A /* RCLVHostViewController.m */; };
+		0243DE7028432A9C007FAC8A /* RCLVAudienceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE6F28432A9C007FAC8A /* RCLVAudienceViewController.m */; };
+		0243DE7428436746007FAC8A /* RCLVHostPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE7328436746007FAC8A /* RCLVHostPresenter.m */; };
+		0243DE772843675F007FAC8A /* RCLVAudiencePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE762843675F007FAC8A /* RCLVAudiencePresenter.m */; };
+		0243DE7B28436B65007FAC8A /* CreateRoomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE7928436B65007FAC8A /* CreateRoomModel.m */; };
+		0243DE7F2843735B007FAC8A /* RCLVRoomInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE7E2843735B007FAC8A /* RCLVRoomInfoView.m */; };
+		0243DE822843736B007FAC8A /* RCLVRoomActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE812843736B007FAC8A /* RCLVRoomActionView.m */; };
+		0243DE87284377D9007FAC8A /* RCUserListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE83284377D9007FAC8A /* RCUserListView.m */; };
+		0243DE88284377D9007FAC8A /* RCUserListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0243DE85284377D9007FAC8A /* RCUserListCell.m */; };
+		024563E02844894B00F0A4B1 /* RCLVPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563DF2844894B00F0A4B1 /* RCLVPresenter.m */; };
+		024563E32844D98800F0A4B1 /* RCLVSeatItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563E22844D98800F0A4B1 /* RCLVSeatItemView.m */; };
+		024563E628460FBF00F0A4B1 /* RCLVPresenter+PK.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563E528460FBF00F0A4B1 /* RCLVPresenter+PK.m */; };
+		024563E928460FD500F0A4B1 /* RCLVHostViewController+PK.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563E828460FD500F0A4B1 /* RCLVHostViewController+PK.m */; };
+		024563EC28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563EB28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.m */; };
+		024563EF28461B0600F0A4B1 /* RCWebService+PK.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563EE28461B0600F0A4B1 /* RCWebService+PK.m */; };
+		024563F228462C4500F0A4B1 /* RCOnlineCreatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563F128462C4500F0A4B1 /* RCOnlineCreatorModel.m */; };
+		024563F5284717EC00F0A4B1 /* RCLVPKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 024563F4284717EC00F0A4B1 /* RCLVPKView.m */; };
+		EC4B672D875AD1403D40E5D8 /* Pods_RCLiveVideoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE238F7CC5C28FB9ECEF64E /* Pods_RCLiveVideoDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0227CCAC28474A4C006402AF /* RCPKStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCPKStatusModel.h; sourceTree = "<group>"; };
+		0227CCAD28474A4C006402AF /* RCPKStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCPKStatusModel.m; sourceTree = "<group>"; };
+		0243DE192840CD80007FAC8A /* RCLiveVideoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCLiveVideoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0243DE1C2840CD80007FAC8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0243DE1D2840CD80007FAC8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0243DE282840CD83007FAC8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0243DE2B2840CD83007FAC8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0243DE2E2840CD83007FAC8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0243DE3A28427071007FAC8A /* RCLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLoginViewController.h; sourceTree = "<group>"; };
+		0243DE3B28427071007FAC8A /* RCLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLoginViewController.m; sourceTree = "<group>"; };
+		0243DE3D28427096007FAC8A /* RCRoomListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCRoomListViewController.h; sourceTree = "<group>"; };
+		0243DE3E28427096007FAC8A /* RCRoomListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCRoomListViewController.m; sourceTree = "<group>"; };
+		0243DE40284270B2007FAC8A /* RCUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCUserManager.h; sourceTree = "<group>"; };
+		0243DE41284270B2007FAC8A /* RCUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCUserManager.m; sourceTree = "<group>"; };
+		0243DE43284270C8007FAC8A /* RCWebService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWebService.h; sourceTree = "<group>"; };
+		0243DE44284270C8007FAC8A /* RCWebService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWebService.m; sourceTree = "<group>"; };
+		0243DE462842724B007FAC8A /* RCLVPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVPrefixHeader.pch; sourceTree = "<group>"; };
+		0243DE47284274C1007FAC8A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0243DE49284278D3007FAC8A /* RCLVSDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVSDefine.h; sourceTree = "<group>"; };
+		0243DE4A284279B8007FAC8A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0243DE4D284280E2007FAC8A /* LVSNetworkConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVSNetworkConst.h; sourceTree = "<group>"; };
+		0243DE4E28428112007FAC8A /* RCResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCResponseModel.m; sourceTree = "<group>"; };
+		0243DE4F28428112007FAC8A /* RCResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCResponseModel.h; sourceTree = "<group>"; };
+		0243DE5228431D19007FAC8A /* LoginResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginResponseModel.h; sourceTree = "<group>"; };
+		0243DE5328431D19007FAC8A /* LoginResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginResponseModel.m; sourceTree = "<group>"; };
+		0243DE5628431FF9007FAC8A /* RCRoomListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRoomListPresenter.h; sourceTree = "<group>"; };
+		0243DE5728431FF9007FAC8A /* RCRoomListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRoomListPresenter.m; sourceTree = "<group>"; };
+		0243DE5A28432001007FAC8A /* RCRoomListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRoomListCell.m; sourceTree = "<group>"; };
+		0243DE5B28432001007FAC8A /* RCRoomListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRoomListCell.h; sourceTree = "<group>"; };
+		0243DE5F2843200C007FAC8A /* RoomListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomListModel.m; sourceTree = "<group>"; };
+		0243DE612843200C007FAC8A /* RoomListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomListModel.h; sourceTree = "<group>"; };
+		0243DE6528432097007FAC8A /* RoomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomModel.m; sourceTree = "<group>"; };
+		0243DE6628432097007FAC8A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		0243DE6728432097007FAC8A /* RoomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomModel.h; sourceTree = "<group>"; };
+		0243DE6828432097007FAC8A /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		0243DE6B28432A65007FAC8A /* RCLVHostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVHostViewController.h; sourceTree = "<group>"; };
+		0243DE6C28432A65007FAC8A /* RCLVHostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVHostViewController.m; sourceTree = "<group>"; };
+		0243DE6E28432A9C007FAC8A /* RCLVAudienceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVAudienceViewController.h; sourceTree = "<group>"; };
+		0243DE6F28432A9C007FAC8A /* RCLVAudienceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVAudienceViewController.m; sourceTree = "<group>"; };
+		0243DE7228436746007FAC8A /* RCLVHostPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVHostPresenter.h; sourceTree = "<group>"; };
+		0243DE7328436746007FAC8A /* RCLVHostPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVHostPresenter.m; sourceTree = "<group>"; };
+		0243DE752843675F007FAC8A /* RCLVAudiencePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVAudiencePresenter.h; sourceTree = "<group>"; };
+		0243DE762843675F007FAC8A /* RCLVAudiencePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVAudiencePresenter.m; sourceTree = "<group>"; };
+		0243DE7928436B65007FAC8A /* CreateRoomModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRoomModel.m; sourceTree = "<group>"; };
+		0243DE7A28436B65007FAC8A /* CreateRoomModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRoomModel.h; sourceTree = "<group>"; };
+		0243DE7D2843735B007FAC8A /* RCLVRoomInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVRoomInfoView.h; sourceTree = "<group>"; };
+		0243DE7E2843735B007FAC8A /* RCLVRoomInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVRoomInfoView.m; sourceTree = "<group>"; };
+		0243DE802843736B007FAC8A /* RCLVRoomActionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVRoomActionView.h; sourceTree = "<group>"; };
+		0243DE812843736B007FAC8A /* RCLVRoomActionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVRoomActionView.m; sourceTree = "<group>"; };
+		0243DE83284377D9007FAC8A /* RCUserListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUserListView.m; sourceTree = "<group>"; };
+		0243DE84284377D9007FAC8A /* RCUserListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUserListCell.h; sourceTree = "<group>"; };
+		0243DE85284377D9007FAC8A /* RCUserListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCUserListCell.m; sourceTree = "<group>"; };
+		0243DE86284377D9007FAC8A /* RCUserListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCUserListView.h; sourceTree = "<group>"; };
+		024563DE2844894B00F0A4B1 /* RCLVPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVPresenter.h; sourceTree = "<group>"; };
+		024563DF2844894B00F0A4B1 /* RCLVPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVPresenter.m; sourceTree = "<group>"; };
+		024563E12844D98800F0A4B1 /* RCLVSeatItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVSeatItemView.h; sourceTree = "<group>"; };
+		024563E22844D98800F0A4B1 /* RCLVSeatItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVSeatItemView.m; sourceTree = "<group>"; };
+		024563E428460FBF00F0A4B1 /* RCLVPresenter+PK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCLVPresenter+PK.h"; sourceTree = "<group>"; };
+		024563E528460FBF00F0A4B1 /* RCLVPresenter+PK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCLVPresenter+PK.m"; sourceTree = "<group>"; };
+		024563E728460FD500F0A4B1 /* RCLVHostViewController+PK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCLVHostViewController+PK.h"; sourceTree = "<group>"; };
+		024563E828460FD500F0A4B1 /* RCLVHostViewController+PK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCLVHostViewController+PK.m"; sourceTree = "<group>"; };
+		024563EA28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCLVAudienceViewController+PK.h"; sourceTree = "<group>"; };
+		024563EB28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCLVAudienceViewController+PK.m"; sourceTree = "<group>"; };
+		024563ED28461B0600F0A4B1 /* RCWebService+PK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCWebService+PK.h"; sourceTree = "<group>"; };
+		024563EE28461B0600F0A4B1 /* RCWebService+PK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCWebService+PK.m"; sourceTree = "<group>"; };
+		024563F028462C4500F0A4B1 /* RCOnlineCreatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCOnlineCreatorModel.h; sourceTree = "<group>"; };
+		024563F128462C4500F0A4B1 /* RCOnlineCreatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCOnlineCreatorModel.m; sourceTree = "<group>"; };
+		024563F3284717EC00F0A4B1 /* RCLVPKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCLVPKView.h; sourceTree = "<group>"; };
+		024563F4284717EC00F0A4B1 /* RCLVPKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLVPKView.m; sourceTree = "<group>"; };
+		5C31759EA2E444C572818F2B /* Pods-RCLiveVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLiveVideoDemo.release.xcconfig"; path = "Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5DE238F7CC5C28FB9ECEF64E /* Pods_RCLiveVideoDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCLiveVideoDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE716AA27A2A3EB51E3D768 /* Pods-RCLiveVideoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLiveVideoDemo.debug.xcconfig"; path = "Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0243DE162840CD80007FAC8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4B672D875AD1403D40E5D8 /* Pods_RCLiveVideoDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0243DE102840CD80007FAC8A = {
+			isa = PBXGroup;
+			children = (
+				0243DE1B2840CD80007FAC8A /* RCLiveVideoDemo */,
+				0243DE1A2840CD80007FAC8A /* Products */,
+				C2CC6CB972FD391A8924562B /* Pods */,
+				76F1D5E0CA91C52D3E48ABC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0243DE1A2840CD80007FAC8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE192840CD80007FAC8A /* RCLiveVideoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0243DE1B2840CD80007FAC8A /* RCLiveVideoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE4C28427B72007FAC8A /* Login */,
+				0243DE3928426A35007FAC8A /* Network */,
+				0243DE38284269CF007FAC8A /* LiveVideoRoom */,
+				0243DE37284269B0007FAC8A /* Common */,
+				0243DE362842699E007FAC8A /* RoomList */,
+				0243DE352842698B007FAC8A /* Entry */,
+				0243DE282840CD83007FAC8A /* Assets.xcassets */,
+				0243DE47284274C1007FAC8A /* Info.plist */,
+				0243DE2A2840CD83007FAC8A /* LaunchScreen.storyboard */,
+				0243DE2E2840CD83007FAC8A /* main.m */,
+			);
+			path = RCLiveVideoDemo;
+			sourceTree = "<group>";
+		};
+		0243DE352842698B007FAC8A /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE1C2840CD80007FAC8A /* AppDelegate.h */,
+				0243DE1D2840CD80007FAC8A /* AppDelegate.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		0243DE362842699E007FAC8A /* RoomList */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE5D2843200C007FAC8A /* Model */,
+				0243DE5928432001007FAC8A /* View */,
+				0243DE5528431FF9007FAC8A /* Presenter */,
+				0243DE3D28427096007FAC8A /* RCRoomListViewController.h */,
+				0243DE3E28427096007FAC8A /* RCRoomListViewController.m */,
+			);
+			path = RoomList;
+			sourceTree = "<group>";
+		};
+		0243DE37284269B0007FAC8A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE6428432097007FAC8A /* Models */,
+				0243DE40284270B2007FAC8A /* RCUserManager.h */,
+				0243DE41284270B2007FAC8A /* RCUserManager.m */,
+				0243DE462842724B007FAC8A /* RCLVPrefixHeader.pch */,
+				0243DE49284278D3007FAC8A /* RCLVSDefine.h */,
+				0243DE4A284279B8007FAC8A /* Localizable.strings */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0243DE38284269CF007FAC8A /* LiveVideoRoom */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE7C2843731A007FAC8A /* View */,
+				0243DE7828436B55007FAC8A /* Model */,
+				0243DE7128436719007FAC8A /* Presenter */,
+				0243DE6B28432A65007FAC8A /* RCLVHostViewController.h */,
+				0243DE6C28432A65007FAC8A /* RCLVHostViewController.m */,
+				0243DE6E28432A9C007FAC8A /* RCLVAudienceViewController.h */,
+				0243DE6F28432A9C007FAC8A /* RCLVAudienceViewController.m */,
+				024563E728460FD500F0A4B1 /* RCLVHostViewController+PK.h */,
+				024563E828460FD500F0A4B1 /* RCLVHostViewController+PK.m */,
+				024563EA28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.h */,
+				024563EB28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.m */,
+			);
+			path = LiveVideoRoom;
+			sourceTree = "<group>";
+		};
+		0243DE3928426A35007FAC8A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE4D284280E2007FAC8A /* LVSNetworkConst.h */,
+				0243DE4F28428112007FAC8A /* RCResponseModel.h */,
+				0243DE4E28428112007FAC8A /* RCResponseModel.m */,
+				0243DE43284270C8007FAC8A /* RCWebService.h */,
+				0243DE44284270C8007FAC8A /* RCWebService.m */,
+				024563ED28461B0600F0A4B1 /* RCWebService+PK.h */,
+				024563EE28461B0600F0A4B1 /* RCWebService+PK.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0243DE4C28427B72007FAC8A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE5128431CE9007FAC8A /* Model */,
+				0243DE3A28427071007FAC8A /* RCLoginViewController.h */,
+				0243DE3B28427071007FAC8A /* RCLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0243DE5128431CE9007FAC8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE5228431D19007FAC8A /* LoginResponseModel.h */,
+				0243DE5328431D19007FAC8A /* LoginResponseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0243DE5528431FF9007FAC8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE5628431FF9007FAC8A /* RCRoomListPresenter.h */,
+				0243DE5728431FF9007FAC8A /* RCRoomListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0243DE5928432001007FAC8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE5A28432001007FAC8A /* RCRoomListCell.m */,
+				0243DE5B28432001007FAC8A /* RCRoomListCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0243DE5D2843200C007FAC8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE612843200C007FAC8A /* RoomListModel.h */,
+				0243DE5F2843200C007FAC8A /* RoomListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0243DE6428432097007FAC8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE6728432097007FAC8A /* RoomModel.h */,
+				0243DE6528432097007FAC8A /* RoomModel.m */,
+				0243DE6828432097007FAC8A /* UserModel.h */,
+				0243DE6628432097007FAC8A /* UserModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0243DE7128436719007FAC8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				024563DE2844894B00F0A4B1 /* RCLVPresenter.h */,
+				024563DF2844894B00F0A4B1 /* RCLVPresenter.m */,
+				0243DE7228436746007FAC8A /* RCLVHostPresenter.h */,
+				0243DE7328436746007FAC8A /* RCLVHostPresenter.m */,
+				0243DE752843675F007FAC8A /* RCLVAudiencePresenter.h */,
+				0243DE762843675F007FAC8A /* RCLVAudiencePresenter.m */,
+				024563E428460FBF00F0A4B1 /* RCLVPresenter+PK.h */,
+				024563E528460FBF00F0A4B1 /* RCLVPresenter+PK.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0243DE7828436B55007FAC8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				024563F028462C4500F0A4B1 /* RCOnlineCreatorModel.h */,
+				024563F128462C4500F0A4B1 /* RCOnlineCreatorModel.m */,
+				0243DE7A28436B65007FAC8A /* CreateRoomModel.h */,
+				0243DE7928436B65007FAC8A /* CreateRoomModel.m */,
+				0227CCAC28474A4C006402AF /* RCPKStatusModel.h */,
+				0227CCAD28474A4C006402AF /* RCPKStatusModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0243DE7C2843731A007FAC8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0243DE84284377D9007FAC8A /* RCUserListCell.h */,
+				0243DE85284377D9007FAC8A /* RCUserListCell.m */,
+				0243DE86284377D9007FAC8A /* RCUserListView.h */,
+				0243DE83284377D9007FAC8A /* RCUserListView.m */,
+				0243DE7D2843735B007FAC8A /* RCLVRoomInfoView.h */,
+				0243DE7E2843735B007FAC8A /* RCLVRoomInfoView.m */,
+				0243DE802843736B007FAC8A /* RCLVRoomActionView.h */,
+				0243DE812843736B007FAC8A /* RCLVRoomActionView.m */,
+				024563E12844D98800F0A4B1 /* RCLVSeatItemView.h */,
+				024563E22844D98800F0A4B1 /* RCLVSeatItemView.m */,
+				024563F3284717EC00F0A4B1 /* RCLVPKView.h */,
+				024563F4284717EC00F0A4B1 /* RCLVPKView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76F1D5E0CA91C52D3E48ABC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE238F7CC5C28FB9ECEF64E /* Pods_RCLiveVideoDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2CC6CB972FD391A8924562B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE716AA27A2A3EB51E3D768 /* Pods-RCLiveVideoDemo.debug.xcconfig */,
+				5C31759EA2E444C572818F2B /* Pods-RCLiveVideoDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0243DE182840CD80007FAC8A /* RCLiveVideoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0243DE322840CD83007FAC8A /* Build configuration list for PBXNativeTarget "RCLiveVideoDemo" */;
+			buildPhases = (
+				1BF12CCBDEF9E8FDD9A58617 /* [CP] Check Pods Manifest.lock */,
+				0243DE152840CD80007FAC8A /* Sources */,
+				0243DE162840CD80007FAC8A /* Frameworks */,
+				0243DE172840CD80007FAC8A /* Resources */,
+				AA45285FEFAA742A90B651FE /* [CP] Embed Pods Frameworks */,
+				FD990B4C218070A3D70FA8A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCLiveVideoDemo;
+			productName = RCLiveVideoDemo;
+			productReference = 0243DE192840CD80007FAC8A /* RCLiveVideoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0243DE112840CD80007FAC8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0243DE182840CD80007FAC8A = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 0243DE142840CD80007FAC8A /* Build configuration list for PBXProject "RCLiveVideoDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0243DE102840CD80007FAC8A;
+			productRefGroup = 0243DE1A2840CD80007FAC8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0243DE182840CD80007FAC8A /* RCLiveVideoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0243DE172840CD80007FAC8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0243DE2C2840CD83007FAC8A /* LaunchScreen.storyboard in Resources */,
+				0243DE4B284279B8007FAC8A /* Localizable.strings in Resources */,
+				0243DE292840CD83007FAC8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BF12CCBDEF9E8FDD9A58617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCLiveVideoDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA45285FEFAA742A90B651FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD990B4C218070A3D70FA8A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RCLiveVideoDemo/Pods-RCLiveVideoDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0243DE152840CD80007FAC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024563F228462C4500F0A4B1 /* RCOnlineCreatorModel.m in Sources */,
+				024563E628460FBF00F0A4B1 /* RCLVPresenter+PK.m in Sources */,
+				0243DE5428431D19007FAC8A /* LoginResponseModel.m in Sources */,
+				0243DE1E2840CD80007FAC8A /* AppDelegate.m in Sources */,
+				0243DE7B28436B65007FAC8A /* CreateRoomModel.m in Sources */,
+				0243DE6A28432097007FAC8A /* UserModel.m in Sources */,
+				0243DE3C28427071007FAC8A /* RCLoginViewController.m in Sources */,
+				0243DE87284377D9007FAC8A /* RCUserListView.m in Sources */,
+				0243DE3F28427096007FAC8A /* RCRoomListViewController.m in Sources */,
+				024563E928460FD500F0A4B1 /* RCLVHostViewController+PK.m in Sources */,
+				0243DE632843200C007FAC8A /* RoomListModel.m in Sources */,
+				0243DE5028428112007FAC8A /* RCResponseModel.m in Sources */,
+				024563F5284717EC00F0A4B1 /* RCLVPKView.m in Sources */,
+				0243DE88284377D9007FAC8A /* RCUserListCell.m in Sources */,
+				0243DE2F2840CD83007FAC8A /* main.m in Sources */,
+				024563E02844894B00F0A4B1 /* RCLVPresenter.m in Sources */,
+				0227CCAE28474A4C006402AF /* RCPKStatusModel.m in Sources */,
+				024563EC28460FEB00F0A4B1 /* RCLVAudienceViewController+PK.m in Sources */,
+				0243DE42284270B2007FAC8A /* RCUserManager.m in Sources */,
+				0243DE6D28432A65007FAC8A /* RCLVHostViewController.m in Sources */,
+				0243DE7028432A9C007FAC8A /* RCLVAudienceViewController.m in Sources */,
+				0243DE7428436746007FAC8A /* RCLVHostPresenter.m in Sources */,
+				0243DE5C28432001007FAC8A /* RCRoomListCell.m in Sources */,
+				0243DE5828431FF9007FAC8A /* RCRoomListPresenter.m in Sources */,
+				0243DE7F2843735B007FAC8A /* RCLVRoomInfoView.m in Sources */,
+				024563EF28461B0600F0A4B1 /* RCWebService+PK.m in Sources */,
+				024563E32844D98800F0A4B1 /* RCLVSeatItemView.m in Sources */,
+				0243DE822843736B007FAC8A /* RCLVRoomActionView.m in Sources */,
+				0243DE45284270C8007FAC8A /* RCWebService.m in Sources */,
+				0243DE772843675F007FAC8A /* RCLVAudiencePresenter.m in Sources */,
+				0243DE6928432097007FAC8A /* RoomModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0243DE2A2840CD83007FAC8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0243DE2B2840CD83007FAC8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0243DE302840CD83007FAC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0243DE312840CD83007FAC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0243DE332840CD83007FAC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE716AA27A2A3EB51E3D768 /* Pods-RCLiveVideoDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43XBZUE6H4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RCLiveVideoDemo/Common/RCLVPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RCLiveVideoDemo/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "听个歌？";
+				INFOPLIST_KEY_NSCameraUsageDescription = "视个频？";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "语个音？";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pl.RCLiveVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0243DE342840CD83007FAC8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C31759EA2E444C572818F2B /* Pods-RCLiveVideoDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 43XBZUE6H4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RCLiveVideoDemo/Common/RCLVPrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RCLiveVideoDemo/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "听个歌？";
+				INFOPLIST_KEY_NSCameraUsageDescription = "视个频？";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "语个音？";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pl.RCLiveVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0243DE142840CD80007FAC8A /* Build configuration list for PBXProject "RCLiveVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0243DE302840CD83007FAC8A /* Debug */,
+				0243DE312840CD83007FAC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0243DE322840CD83007FAC8A /* Build configuration list for PBXNativeTarget "RCLiveVideoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0243DE332840CD83007FAC8A /* Debug */,
+				0243DE342840CD83007FAC8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0243DE112840CD80007FAC8A /* Project object */;
+}
