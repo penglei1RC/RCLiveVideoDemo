@@ -21,7 +21,7 @@
 - (void)createRoomWithCompletionBlock:(void(^)(CreateRoomModel * _Nullable roomInfo))completionBlock {
     NSString *roomName = [self generateRoomName];
     NSString *password = [self md5:@"1234"];
-    NSString *imageUrl = @"https://img2.baidu.com/it/u=2842763149,821152972&fm=26&fmt=auto";
+    NSString *imageUrl = @"https://img0.baidu.com/it/u=1026982531,3317111284&fm=253&app=138&size=w931&n=0&f=JPEG";
     
     [RCWebService createRoomWithName:roomName
                            isPrivate:0
@@ -41,7 +41,7 @@
             self.roomInfo = model;
             !completionBlock ?: completionBlock(model);
         } else {
-            [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"%@ code: %ld",@"新建房间失败",(long)res.code]];
+            [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"%@ code: %ld",@"新建房间失败", res.code.longValue]];
             !completionBlock ?: completionBlock(nil);
         }
     } failure:^(NSError * _Nonnull error) {
@@ -105,6 +105,8 @@
     // 1. 销毁房间，服务器会默认结束直播
     [RCWebService deleteRoomWithRoomId:self.roomInfo.roomId success:^(id  _Nullable responseObject) {
         Log(@"network live room close success");
+        // 2. 销毁房间，离开房间
+        [[RCLiveVideoEngine shared] leaveRoom:^(RCLiveVideoCode code) {}];
     } failure:^(NSError * _Nonnull error) {
         [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"NetWork %@ code: %ld",LVSLocalizedString(@"live_room_delete_fail"),(long)error.code]];
     }];

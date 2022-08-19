@@ -257,7 +257,7 @@
 
 /// 视频连麦模式发生变化
 /// @param mixType 连麦类型
-- (void)roomMixTypeDidChange:(RCLiveVideoMixType)mixType; {
+- (void)roomMixTypeDidChange:(RCLiveVideoMixType)mixType {
     Log(@"mix type did change");
     [self setupPreviewLayout:mixType];
     if (mixType == RCLiveVideoMixTypeGridTwo || mixType == RCLiveVideoMixTypeGridThree) {
